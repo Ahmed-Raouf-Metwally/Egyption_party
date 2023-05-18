@@ -1,0 +1,130 @@
+body {
+    overflow-x: hidden;
+    background-color: #121212;
+
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    height: 75vh;
+    background-image: url(../img/pexels-aleksandar-pasaric-2078071.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header h1 {
+    display: block;
+    font-size: 3rem;
+}
+
+.color-red,
+a.color-red:hover {color: #a845f9}
+
+.black-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #a845f965;
+}
+
+a:hover{text-decoration: none}
+
+.red-bg {background-color: #a845f9}
+
+#come-soon {
+    position: relative;
+    z-index: 0;
+    background-image: url(../img/pexels-wolfgang-2747446.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-header {cursor: pointer}
+
+ul.soch a {
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    border: 1px solid #999;
+    text-align: center;
+    margin-right: 10px;
+}
+
+ul.soch a:hover {
+    color: #FFF !important;
+    background: #a845f9;
+    border-color: #a845f9;
+}
+
+span.color-red {font-size: 27px}
+
+.test {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+#menu-btn {
+    top: 30%;
+    cursor: pointer;
+    left: 0;
+    font-size: 25px;
+    transform: translateY(-50%);
+    display: block;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+#menu {
+    top: 0;
+    left: 0;
+    background-color: #414658;
+    z-index: 5;
+    width: 0px;
+    overflow-x: hidden;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+#menu a {
+    color: #FFF;
+    display: block;
+    font-size: 1.5rem;
+    transition: .3s all;
+    text-decoration: none;
+}
+
+#menu a:hover,
+#exit-btn:hover {color: #a845f9}
+
+#exit-btn {
+    top: 20px;
+    right: 15px;
+    padding: 10px;
+    font-size: 25px;
+    transition: .3s all;
+    color: #FFF;
+    cursor: pointer;
+}
+section {color: #AAA;}
+footer p {
+    color: #666;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0 .2rem #a845f9;
+    color: rgb(73, 80, 87);
+    background-color: rgb(255, 255, 255);
+    border-color: #a845f9;
+    outline: 0px;
+    box-shadow: 0px 0px 12px 0.1rem #a845f9;
+}
